@@ -1,0 +1,12 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET        /                    demo.HelloController.index
+GET        /count               demo.HelloController.count
+GET        /list                demo.HelloController.list
+GET        /filter/:text        demo.HelloController.filter(text)
+
+# Home page
+
+# Map static resources from the /public folder to the /assets URL path
